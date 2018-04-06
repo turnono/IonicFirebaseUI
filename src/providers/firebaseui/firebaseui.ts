@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
-import * as firebase from 'firebase';
+//import * as firebase from 'firebase';
+import firebase from 'firebase/app'; // for ionic 3
 import * as firebaseui from 'firebaseui';
 
 /*
